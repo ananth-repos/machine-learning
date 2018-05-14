@@ -1,5 +1,5 @@
 # Machine-Learning
-My machine learning notes &amp; projects.
+My machine learning notes &amp; projects. All my code are using python 3.
 
 The folders are organized as follows. Each topic or method has a separate folder. Within that folder there are 3 sub-folders:
 
@@ -47,6 +47,6 @@ Other than this I have files that contains information about general machine lea
  6) Data visualization topics.
  7) Big data.
 
- And much more...
+And much more...
  
- Please hit me up if you find any errors or have any questions. Happy learning!
+Please hit me up if you find any errors or have any questions. Happy learning!
