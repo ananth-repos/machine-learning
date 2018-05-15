@@ -1,5 +1,5 @@
 # Gradient Descent Implementation (fromt theory notebook)
-# Demonstrated multi-collinearity problem
+# Demonstrated multi-collinearity problem from artificially generated dataset
 
 # Code Flow:
     # 1. Import all relevant libraries.
