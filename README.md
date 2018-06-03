@@ -5,7 +5,7 @@ The folders are organized as follows. Each topic or method has a separate folder
 
   1) Theory.
   2) Code - From Theory.
-  3) Code - From an API(ML).
+  3) Code - From an API(Scikit-learn, Tensorflow etc.).
   
 # Theory:
 This folder usually contains jupyter notebook(s) that has my notes on that specific algorithm:
@@ -38,7 +38,7 @@ Some of the ML APIs I used:
 This folder contains projects from any competitions that I participate.
   
 # Misc:
-Other than this I have files that contains information about general machine learning. Some of the topics include:
+Other than this there might be other files that contains information about general machine learning. Some of the topics include:
  1) How to choose an algorithm for a problem?
  2) Algorithm efficieny.
  3) Feature selection/ Feature Engineering.
