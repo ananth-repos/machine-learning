@@ -76,7 +76,7 @@ for i in range(10000):
         # print error every 10 epochs
         print(e)
 
-    # Gradient descent weight update:
+    # Gradient descent weight update with L2:
     w += learning_rate * (Xb.T.dot(T - Y) - 0.01*w)
 
     w_mags.append(w.dot(w)) # append w_mag
