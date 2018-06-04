@@ -1,4 +1,5 @@
 # Implementation of gradient descent for logistic regression.
+# Section 3D of the Jupyter Notebook for derivation/theory.
 
 # Code Flow:
     # 1. Import all relevant libraries.
