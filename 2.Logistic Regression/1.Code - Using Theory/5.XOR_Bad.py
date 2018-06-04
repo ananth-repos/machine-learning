@@ -2,7 +2,7 @@
 
 # Code Flow:
     # 1. Import all relevant libraries.
-    # 2. Generate sample data from std. normal distribution.
+    # 2. Generate sample data.
     # 3. Generate random weights.
     # 4. Define sigmoid function.
     # 5. Calculate Y.
