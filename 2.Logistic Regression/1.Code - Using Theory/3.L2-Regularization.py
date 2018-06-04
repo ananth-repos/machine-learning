@@ -45,7 +45,7 @@ w = np.random.randn(D + 1)
 def sigmoid(z):
     return 1/(1 + np.exp(-z))
 
-# 5. Feedforward:
+# 5. Calculate Model Output:
 z = Xb.dot(w)
 Y = sigmoid(z)
 
