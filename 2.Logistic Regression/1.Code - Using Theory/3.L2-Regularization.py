@@ -52,13 +52,7 @@ Y = sigmoid(z)
 # 6. Cross-entropy error function:
 # Section 3B from jupyter notebook
 def cross_entropy(T, Y):
-    E = 0
-    for i in range(len(T)):
-        if T[i] == 1:
-            E -= np.log(Y[i])
-        else:
-            E -= np.log(1 - Y[i])
-    return E
+    return -(T*np.log(Y) + (1-T)*np.log(1-Y)).sum()
 
 # 7. Gradient Descent with L2 Regularization:
 # Section 4 from jupyter notebook
