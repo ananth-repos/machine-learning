@@ -9,7 +9,7 @@
     # 4. Define sigmoid function.
     # 5. Feedforward calculation.
     # 6. Cross-entropy error function.
-    # 7. Gradient Descent with L2 Regularization:
+    # 7. Gradient Descent with L2 Regularization.
     # 8. Plot the data/decision line.
     
 # 1. Import all relevante libraries:
@@ -70,7 +70,7 @@ for i in range(100):
         print(cross_entropy(T, Y))
 
     # Gradient descent weight update with L2 regularization:
-    w += learning_rate * ( Xb.T.dot(T - Y) - 0.1*w )
+    w += learning_rate * ( Xb.T.dot(T - Y) - 0.1*w ) # 0.1 selected after few trails
 
     # Calculate Y:
     Y = sigmoid(Xb.dot(w))
