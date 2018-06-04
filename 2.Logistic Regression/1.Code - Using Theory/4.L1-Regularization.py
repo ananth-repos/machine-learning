@@ -10,7 +10,7 @@
     # 6. Plot the costs - Figure 1.
     # 7. Plot L1 - w vs. true w - Figure 2.
     
-# 1. Import all relevante libraries:
+# 1. Import all relevant libraries:
 import numpy as np
 import matplotlib.pyplot as plt
 
