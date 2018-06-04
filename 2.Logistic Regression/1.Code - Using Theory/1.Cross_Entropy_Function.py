@@ -47,6 +47,7 @@ z = Xb.dot(w)
 Y = sigmoid(z)
 
 # 6. Cross-entropy error function:
+# Section 3B from jupyter notebook
 def cross_entropy(T, Y):
     E = 0
     for i in range(len(T)):
@@ -60,6 +61,7 @@ def cross_entropy(T, Y):
 print(cross_entropy(T, Y))
 
 # 8. Closed-form solution:
+# Section 3A from jupyter notebook
 w = np.array([0, 4, 4])
 
 # calculate the model output
