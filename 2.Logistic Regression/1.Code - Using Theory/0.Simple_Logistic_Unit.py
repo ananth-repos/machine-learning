@@ -20,10 +20,10 @@ D = 2 # No. of features
 # Random data generation:
 X = np.random.randn(N,D)
 ones = np.ones((N, 1)) # bias
-Xb = np.concatenate((ones, X), axis=1)
+Xb = np.concatenate((ones, X), axis=1) # Concatenate X & bias term
 
 # 3. Create random weights:
-w = np.random.randn(D + 1)
+w = np.random.randn(D + 1) # D+1 to account for bias term
 
 # 4. Sigmoid function
 def sigmoid(z):
