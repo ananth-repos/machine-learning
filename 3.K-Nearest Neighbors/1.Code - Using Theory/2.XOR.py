@@ -1,4 +1,4 @@
-# Using KNN for the XOR problem:
+# Using KNN for the XOR problem.
 
 # Code Flow:
     # 1. Import all relevant libraries.

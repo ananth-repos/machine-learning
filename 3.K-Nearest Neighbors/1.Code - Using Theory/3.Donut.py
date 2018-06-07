@@ -1,4 +1,4 @@
-# Using KNN for the Donut problem:
+# Using KNN for the Donut problem.
 
 # Code Flow:
     # 1. Import all relevant libraries.
