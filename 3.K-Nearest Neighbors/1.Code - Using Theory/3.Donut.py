@@ -4,7 +4,7 @@
     # 1. Import all relevant libraries.
     # 2. Import KNN function from vectorized implementation.
     # 3. Main function.
-        # 3.1 Generate XOR dataset.
+        # 3.1 Generate Donut dataset.
         # 3.2 Display the data.
         # 3.3 KNN Fit & Predict.
         
