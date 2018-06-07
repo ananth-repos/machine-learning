@@ -1,4 +1,4 @@
-# Implentation of K-Nearest Neighbors classifier on MNIST dataset.
+# Implementation of K-Nearest Neighbors classifier on MNIST dataset.
 # Also the effect of K-value on train/test scores are evaluated.
 # K-value  = (1, 2, 3, 4, 5)
 
