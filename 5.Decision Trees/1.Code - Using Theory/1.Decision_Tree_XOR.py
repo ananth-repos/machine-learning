@@ -188,12 +188,7 @@ if __name__ == '__main__':
     X[100:150] = np.random.random((50, 2)) / 2 + np.array([[0, 0.5]]) # (0-0.5, 0.5-1)
     X[150:] = np.random.random((50, 2)) / 2 + np.array([[0.5, 0]]) # (0.5-1, 0-0.5)
     Y = np.array([0]*100 + [1]*100) # 100 in class 0 & 100 in class 1
-    X, Y = shuffle(X, Y) # Shuffle data
-    
-    # Binary Labels:
-    idx = np.logical_or(Y == 0, Y == 1)
-    X = X[idx]
-    Y = Y[idx]
+    X, Y = shuffle(X, Y) # Shuffle data    
 
     # 5.2 Train Test Split:
     Ntrain = len(Y) // 2
