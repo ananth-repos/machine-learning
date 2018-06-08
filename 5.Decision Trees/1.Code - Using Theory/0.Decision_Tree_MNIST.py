@@ -1,4 +1,5 @@
 # Implementation of Simple Decision Tree for Binary output & continous vector input.
+# Tested on MNIST dataset.
 
 # Code Flow:
     # 1. Import all relevant libraries.
