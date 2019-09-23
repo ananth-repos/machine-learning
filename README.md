@@ -50,5 +50,3 @@ Other than this there might be other files that contains information about gener
 And much more...
  
 Please hit me up if you find any errors or have any questions. Happy learning!
-
-Test!
